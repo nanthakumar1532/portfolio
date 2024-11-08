@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+ <html>
+
+    
+<head>
+
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+     
+
+		<title>Nantha kumar-portfolio</title>
+
+
+        <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet">
+
+		<link rel="stylesheet" href="css/plugins.css" />
+
+        <!-- Core Style Css -->
+        <link rel="stylesheet" href="css/style.css" />
+        
+        <style>
+            @keyframes fadeUp {
+                0% {
+                    opacity: 0;
+                    transform: translateY(50px);
+                }
+                100% {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+            
+            .animate-item {
+                opacity: 0; 
+                animation: fadeUp 0.8s ease forwards; 
+            }
+            
+            .animate-item:nth-child(1) {
+                animation-delay: 0.1s;
+            }
+            
+            .animate-item:nth-child(2) {
+                animation-delay: 0.3s;
+            }
+            
+            .animate-item:nth-child(3) {
+                animation-delay: 0.5s;
+            }
+            
+            .animate-item:nth-child(4) {
+                animation-delay: 0.7s;
+            }
+
+
+@keyframes clickAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.clicked-animate {
+    animation: clickAnimation 0.5s ease-out;
+}
+
+.item:hover {
+    cursor: pointer;
+}
+
+            </style>
+
+            <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+            <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+            </script>
+
+
+    </head>
+
+    <body>
+
+
+    	<div class="loading">
+            <div class="load-circle">
+            </div>
+        </div>
+        
+    
+
+		<nav class="navbar navbar-expand-lg">
+			<div class="container">
+
+     
+
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="icon-bar"><i class="fas fa-bars"></i></span>
+			  </button>
+
+			  <!-- navbar links -->
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav ml-auto">
+			      <li class="nav-item">
+			        <a class="nav-link active" href="#" data-scroll-nav="0">Home</a>
+			      </li>
+			      <li class="nav-item">
+                    <a class="nav-link" href="#" data-scroll-nav="1">About</a>
+                  </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#" data-scroll-nav="2">Services</a>
+			      </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" data-scroll-nav="3">Portfolio</a>
+                  </li>
+			      
+			      <li class="nav-item">
+			        <a class="nav-link" href="#" data-scroll-nav="6">Contact</a>
+			      </li>
+			    </ul>
+			  </div>
+			</div>
+		</nav>
+
+    	<!-- End Navbar ====
+    	======================================= -->
+
+
+    	<!-- =====================================
+    	==== Start Header -->
+
+    	<header class="header valign bg-img" data-scroll-index="0" data-overlay-dark="5" data-background="img/1.jpg" data-stellar-background-ratio="0.5">
+
+    		<div class="container">
+    			<div class="row">
+    				<div class="offset-lg-1 col-lg-10 text-center caption mt-50">
+                        <h6>Welcome</h6>
+                        <h1 class="cd-headline clip">
+                            <span class="blc">I Am </span>
+                            <span class="cd-words-wrapper">
+                              <b class="is-visible">Nantha Kumar</b>
+                              <b>a Web Developer</b>
+                              <b>a Frontend</b>
+                              <b>a Backend</b>
+                            </span>
+                        </h1>
+                       
+                        <a href="#0" class="butn mt-30" data-scroll-nav="6">Contact Me</a>
+    				</div>
+    			</div>
+    		</div>
+    	</header>
+
+    	<!-- End Header ====
+    	======================================= -->
+
+
+
+        <!-- =====================================
+        ==== Start Hero -->
+
+        <section class="hero section-padding" data-scroll-index="1">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-5">
+                        <div class="hero-img mb-md50">
+                            <div class="img">
+                                <img src="img/hero.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="content">
+                            <h3>About Me</h3>
+                            <span>I am Web Developer</span>
+                            <p class="mb-10">
+                                Welcome to my portfolio! I’m Nantha Kumar, a passionate web developer with a focus on creating intuitive, user-friendly websites and applications. With a strong foundation in HTML, CSS, JavaScript, PHP, and MySQL, I design and develop digital solutions tailored to meet my clients’ needs.</p>
+                            <p>From responsive websites to dynamic web applications, I specialize in crafting engaging experiences that are mobile-friendly, fast, and visually appealing. My approach is driven by a deep understanding of both design principles and the latest web technologies.</p>
+
+                            <div class="info">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="item mb-sm30 mb-15">
+                                            <h6><span class="icon ti-user"></span> My Name : </h6>
+                                            <p>Nantha Kumar</p>
+                                        </div>
+                                        <div class="item mb-sm30 mt-50">
+                                            <h6><span class="icon ti-email"></span> Email : </h6>
+                                            <p>nanthakumar636916@gmail.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="item mb-sm60 mb-25">
+                                            <h6><span class="icon ti-location-pin"></span> Address : </h6>
+                                            <p>Mariyamman Kovil Street,Annanji,Theni</p>
+                                        </div>
+                                        <div class="item">
+                                            <h6><span class="icon ti-crown"></span> Date Of Birth : </h6>
+                                            <p>16 November 2001</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#0" class="butn mt-30" data-scroll-nav="6">Contact Me</a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+     
+
+        <div class="section-padding bg-gray">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-6">
+                        <div class="skills">
+                            <div class="skill-item">
+                                <h5>Html</h5>
+                                <div class="skill-progress">
+                                    <div class="progres" data-value="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <h5>Css</h5>
+                                <div class="skill-progress">
+                                    <div class="progres" data-value="75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="skills">
+                            <div class="skill-item">
+                                <h5>Javascript</h5>
+                                <div class="skill-progress">
+                                    <div class="progres" data-value="60%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <h5>Php</h5>
+                                <div class="skill-progress">
+                                    <div class="progres" data-value="65%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="skills">
+                            <div class="skill-item">
+                                <h5>MySql</h5>
+                                <div class="skill-progress">
+                                    <div class="progres" data-value="70%"></div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <section class="services section-padding" data-scroll-index="2">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="section-head text-center col-lg-12">
+                        <h3>What I Do</h3>
+                        <span><i></i><i></i><i></i></span>
+                    </div>
+        
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item mb-30 animate-item">
+                            <span class="icon fa fa-globe"></span> <!-- Font Awesome website icon -->
+                            <h6>Responsive Web Design:</h6>
+                            <p>Building mobile-friendly websites with modern techniques like media queries and flexible layouts.</p>
+                        </div>
+                    </div>
+                    
+        
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item mb-30 animate-item">
+                            <span class="icon fa fa-code"></span> <!-- Font Awesome front-end icon -->
+                            <h6>Front-End Development:</h6>
+                            <p>Utilizing HTML, CSS, and JavaScript to create visually stunning and interactive interfaces.</p>
+                        </div>
+                    </div>
+                    
+        
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item mb-30 animate-item">
+                            <span class="icon fa fa-server"></span> <!-- Font Awesome back-end icon -->
+                            <h6>Back-End Development:</h6>
+                            <p>Ensuring smooth functionality with PHP and MySQL, managing databases.</p>
+                        </div>
+                    </div>
+                    
+        
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item mb-30 animate-item">
+                            <span class="icon fa fa-shopping-cart"></span> <!-- Font Awesome e-commerce icon -->
+                            <h6>E-commerce Solutions:</h6>
+                            <p>Developing fully-functional online stores with user-friendly shopping experiences.</p>
+                        </div>
+                    </div>
+                    
+        
+                </div>
+            </div>
+        </section>
+        
+        
+        
+
+
+        <section class="works section-padding" data-scroll-index="3">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="section-head text-center col-lg-12">
+                        <h3>Project</h3>
+                        <span><i></i><i></i><i></i></span>
+                    </div>
+
+
+                    <!-- gallery -->
+                    <div class="gallery text-center full-width">
+
+
+                        <!-- gallery item -->
+                        <div class="col-lg-3 col-md-6 items web">
+                            <div class="item-img">
+                                <img src="img/portfolio/1.jpg" alt="image">
+                                <div class="item-img-overlay valign">
+                                    <div class="overlay-info full-width vertical-center">
+                                        <h6>Website Developmenth6>
+                                        <a href="https://wingsmart.in/" class="popimg">
+                                            <span class="icon ti-zoom-in"></span>
+                                        </a>
+                                        <a href="#0">
+                                            <span class="icon ti-link"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-3 col-md-6 items web">
+                            <div class="item-img">
+                                <img src="img/portfolio/2.jpg" alt="image">
+                                <div class="item-img-overlay valign">
+                                    <div class="overlay-info full-width vertical-center">
+                                        <h6>Website Development</h6>
+                                        <a href="https://uc3k68uvsqzxpqcxq8vbdg.on.drv.tw/New%20folder%20(6)/" class="popimg">
+                                            <span class="icon ti-zoom-in"></span>
+                                        </a>
+                                        <a href="#0">
+                                            <span class="icon ti-link"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-6 col-md-6 items graphic">
+                            <div class="item-img">
+                                <img src="img/portfolio/3.jpg" alt="image">
+                                <div class="item-img-overlay valign">
+                                    <a href="img/project/ecommerce.mp4">
+                                    <div class="overlay-info full-width vertical-center">
+                                        <h6>Ecommerce Website</h6>
+                                        <a href="img/project/ecommerce.mp4" class="popimg">
+                                            <span class="icon ti-zoom-in"></span>
+                                        </a>
+                                        <a href="#0">
+                                            <span class="icon ti-link"></span>
+                                        </a>
+                                    </div></a>
+                                </div>
+                            </div>
+                      
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-6 col-md-6 items graphic">
+                            <div class="item-img">
+                                <img src="img/portfolio/4.jpg" alt="image">
+                                <div class="item-img-overlay valign">
+                                    <div class="overlay-info full-width vertical-center">
+                                        <h6>invoice management</h6>
+                                        <a href="img/project/invoice.mp4" class="popimg">
+                                            <span class="icon ti-zoom-in"></span>
+                                        </a>
+                                        <a href="#0">
+                                            <span class="icon ti-link"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-3 col-md-6 items brand">
+                            <div class="item-img">
+                                <img src="img/portfolio/5.jpg" alt="image">
+                                <div class="item-img-overlay valign">
+                                    <div class="overlay-info full-width vertical-center">
+                                        <h6>Website Development</h6>
+                                        <a href="https://uc3k68uvsqzxpqcxq8vbdg.on.drv.tw/success%20academy/" class="popimg">
+                                            <span class="icon ti-zoom-in"></span>
+                                        </a>
+                                        <a href="#0">
+                                            <span class="icon ti-link"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-3 col-md-6 items brand">
+                            
+                        </div>
+
+                        <div class="clearfix"></div>
+                    
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+       
+
+        <section class="contact section-padding" data-scroll-index="6">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="section-head text-center col-lg-12">
+                        <h3>Get In Touch</h3>
+                        <span><i></i><i></i><i></i></span>
+                    </div>
+
+                    <div class="offset-lg-1 col-lg-10">
+                        <form class="form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+                            <div class="messages"></div>
+
+                            <div class="controls">
+
+                                <div class="row">
+                                    <input type="hidden" name="access_key" value="514dad82-3aaf-40e5-a426-56fa9491c6bd">
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input id="form_name" type="text" name="name" placeholder="Name" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input id="form_email" type="email" name="email" placeholder="Email" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input id="form_subject" type="text" name="subject" placeholder="Subject">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea id="form_message" name="message" placeholder="Message" rows="4" required="required"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit"><span>Send Message</span></button>
+                                    </div>
+
+                                </div>                             
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+       
+
+        <footer class="bg-img bg-fixed" data-overlay-dark="8" data-background="img/3.jpg">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <span class="icon ti-mobile"></span>
+                            <h6>Phone</h6>
+                            <p>6369484309</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <span class="icon ti-map"></span>
+                            <h6>Address</h6>
+                            <p>58/3 Mariyamman Kovil street,Annanji,Theni</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <span class="icon ti-email"></span>
+                            <h6>Email</h6>
+                            <p>nanthakumar636916@gmail.com</div>p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            
+        </footer>
+
+      
+
+        <script>
+            // Select all the item boxes
+            const items = document.querySelectorAll('.item');
+        
+            // Function to handle the animation on click
+            items.forEach(item => {
+                item.addEventListener('click', function() {
+                    // Add the animation class
+                    item.classList.add('clicked-animate');
+                    
+                    // Remove the animation class after animation ends, so it can be clicked again
+                    item.addEventListener('animationend', () => {
+                        item.classList.remove('clicked-animate');
+                    });
+                });
+            });
+        </script>
+        
+
+       
+        <!-- jQuery -->
+        <script src="js/jquery-3.0.0.min.js"></script>
+        <script src="js/jquery-migrate-3.0.0.min.js"></script>
+
+        <!-- popper.min -->
+        <script src="js/popper.min.js"></script>
+
+        <!-- bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- animated.headline -->
+        <script src="js/animated.headline.js"></script>
+
+        <!-- scrollIt -->
+        <script src="js/scrollIt.min.js"></script>
+
+      
+
+
+        <!-- jquery.magnific-popup js -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
+
+        <!-- stellar js -->
+        <script src="js/jquery.stellar.min.js"></script>
+
+        <!-- isotope.pkgd.min js -->
+        <script src="js/isotope.pkgd.min.js"></script>
+
+ 
+
+        <!-- custom scripts -->
+        <script src="js/scripts.js"></script>
+
+    </body>
+</html>
